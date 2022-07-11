@@ -1,5 +1,5 @@
 const isDog = true;
-console.log(isDog ? "pat, pat" : "find me a dog pat");
+console.log(isDog ? "pat, pat, good dog" : "find me a dog pat");
 // 2:
 const speedLimit = "50km/h";
 const yourSpeed = "40km/h";
