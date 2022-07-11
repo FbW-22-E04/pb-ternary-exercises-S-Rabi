@@ -1,16 +1,16 @@
 const isDog = true;
-console.log(isDog == true ? "pat, pat, good dog" : "find me a dog pat");
+console.log(isDog == true ? "Pat, pat, good dog" : "find me a dog to pat!");
 // 2:
-const speedLimit = "50km/h";
-const yourSpeed = "90km/h";
+const speedLimit = 40;
+const yourSpeed = 90;
 console.log(
   yourSpeed > speedLimit
     ? "you're going too fast!"
-    : "You're driving below the speed limit"
+    : "You're driving below the speed limit, Oma"
 );
 // 3:
-const age = 31;
-console.log(age < 16 ? "serve butter beer" : "serve Beer");
+const age = 23;
+console.log(age < 16 ? "serve butter beer" : "serve beer");
 // 4:
 const isStudent = true;
 console.log(isStudent ? "Ticket costs €5,00" : "Ticket costs €12,00");
