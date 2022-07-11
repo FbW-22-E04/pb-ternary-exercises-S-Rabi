@@ -1,15 +1,15 @@
 const isDog = true;
-console.log(isDog ? "pat, pat, good dog" : "find me a dog pat");
+console.log(isDog == true ? "pat, pat, good dog" : "find me a dog pat");
 // 2:
 const speedLimit = "50km/h";
-const yourSpeed = "40km/h";
+const yourSpeed = "90km/h";
 console.log(
   yourSpeed > speedLimit
     ? "you're going too fast!"
     : "You're driving below the speed limit"
 );
 // 3:
-let age = 31;
+const age = 31;
 console.log(age < 16 ? "serve butter beer" : "serve Beer");
 // 4:
 const isStudent = true;
